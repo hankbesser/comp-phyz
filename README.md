@@ -1,5 +1,5 @@
 
-# brownian-manifold
+# comp-phyz
 
 Concepts studied in physics have connections to a wide range of interdisciplinary subjects. Wouldn't it be convenient to hone into these concepts by learning how to numerically solve physics problems with detailed and efficient code?
 
