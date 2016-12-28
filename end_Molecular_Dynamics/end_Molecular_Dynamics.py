@@ -1,59 +1,34 @@
 
 # coding: utf-8
 
-# # Final Lab
+#Molecular Dynamics
 
-# ---------------------------------------------------------
+#### Henry Besser
 
-# #### Henry Besser
-# 
-# 
-# #### UIN: 658094513
 
-# ------------------------------------------------------------
-
-# In[1]:
-
-#%% ALL comments on steps are in the report
+#%% ALL comments on steps are in notebook
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 pd.options.display.max_rows = 12
 
-
-# In[2]:
-
 load_data = np.loadtxt("temperature_log.txt")
-
-
-# In[3]:
 
 time_steps_data_set = pd.DataFrame(load_data, columns=['Step Number [1 step = 2 fs]', 'Temperature [K]'])
 time_steps_data_set
 
-
-# In[4]:
-
 total_time_data_set = pd.DataFrame.from_items([('Time [fs}_____', load_data[:,0]*2), ('Temperature [K]',load_data[:,1])])
 total_time_data_set
-
-
-
-# In[5]:
 
 x_to_fit = load_data[:,0]*2
 y_to_fit = load_data[:,1]
 
-
-# In[6]:
 
 from scipy.optimize import curve_fit
 
 #The function and paremters previously descibed 
 def func(x, a, b, c, d):
     return a*np.exp(-b*d*x)+c
-
-
 
 # curve fit function takes 4 values
 #1. The exponential function
@@ -92,9 +67,7 @@ plt.show()
 # #### Printing parameter estimates
 # #### The last value in the array p_est (parameter estimate) is the unscaled DIFFUSION Parameter.
 
-
 print(p_est)
-
 #%%
 #The amount of variation explained by the model ( given by the the diagonals of the covariance matrix) are minimal as all the parameters for the simulation --besides the thermal diffusivity parameter-- were provided. 
 
