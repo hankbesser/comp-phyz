@@ -1,7 +1,7 @@
 
 # Logistic Map and Bifurcation
 
-### Keyword(s)
+$\\theta_{0}$
 
 
 
