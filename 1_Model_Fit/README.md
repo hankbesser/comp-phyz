@@ -3,15 +3,15 @@
 
 ### Keyword(s)
 General:
-- Basic loading and inscepting objects (particularly arrays compressed in ```.npz``` archive)
-- Exploring a model
-- Fit experimental data 
+- basic loading and inspecting objects (particularly arrays compressed in ```.npz``` archive)
+- exploring a model
+- fit experimental data 
 
 HIV Example:
-- Viral load
-- Administration of an antiretroviral drug
+- viral load
+- administration of an antiretroviral drug
 - T-cell infection rate
-- Latency period of HIV
+- latency period of HIV
 
 ### A Figure in the Notebook
 
