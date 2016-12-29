@@ -3,7 +3,7 @@
 
 ### Keyword(s)
 - chaotic behavior from a broad perspective
-- discrete maps
+- discrete map
 - logistic map
 - iteration of steady state values
 - period-doubling
