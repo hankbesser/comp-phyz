@@ -1,5 +1,5 @@
 
-# Logistic Map and Bifurcation
+# Logistic Map and  Bifurcation
 
 ### Keyword(s)
 
