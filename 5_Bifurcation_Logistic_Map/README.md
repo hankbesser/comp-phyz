@@ -6,4 +6,4 @@
 
 
 
-![](https://github.com/hankbesser/comp-phyz/blob/master/figures_to_display/fig_5.png)
+![](https://github.com/hankbesser/comp-phyz/blob/master/figures_to_display/fig_4.png)
