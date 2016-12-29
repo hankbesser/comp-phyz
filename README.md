@@ -3,7 +3,7 @@
 
 Concepts studied in physics have connections to a wide range of interdisciplinary subjects. Wouldn't it be convenient to hone into these concepts by learning how to numerically solve physics problems with detailed and efficient code?
 
-![](https://github.com/hankbesser/comp-phyz/blob/master/figures_to_display/fig_readmen.png)
+![](https://github.com/hankbesser/comp-phyz/blob/master/figures_to_display/fig_readme_new.png)
 
 All ```comp-phyz``` exercises feature a notebook and a Python script. Both these files explain and implement methods, in particular, algorithms, used to solve a broad set of problems (see the list of links below).
 
