@@ -26,12 +26,12 @@ each README page features a list of keywords and a figure in the notebook:
 ### Dependencies
 
 All of ```comp-phyz``` exercises require:
-- ```NumPy``` >= 1.6.1
-- ```Matplotlib``` >= 1.5
+- ```NumPy``` 
+- ```Matplotlib```
 
 The last few exercises do use:
 - ```Pandas``` : for visualization purposes
-- ```SciPy``` >= 0.14 : for optimization purposes
+- ```SciPy``` : for optimization purposes
 
 Note: code for ```comp-phyz``` was written using Python 3.5 but the vast majority of the files should be ok with Python 2.7.11 or 2.7.12    
 
