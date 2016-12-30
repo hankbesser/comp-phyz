@@ -10,6 +10,7 @@ All ```comp-phyz``` exercises feature a notebook and a Python script. Both these
 The notebooks also introduce the topic at hand and explain the created figures. Last, the notebooks strive to analyze and connect the concepts being studied.   
 
 ### Links to the Exercises:
+each README page features a list of keywords and a figure in the notebook: 
 * [1. Model Fit: HIV Example](https://github.com/hankbesser/comp-phyz/tree/master/1_Model_Fit)
 * [2. Radioactive Decay with Two Nuclear Species](https://github.com/hankbesser/comp-phyz/tree/master/2_Decay_Two_Species)
 * [3. Realistic Projectile Motion](https://github.com/hankbesser/comp-phyz/tree/master/3_Realistic_Projectile_Motion)
